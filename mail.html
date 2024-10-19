@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="website icon" type="png" href="image/traitym.png" />
+    <link rel="stylesheet" href="mail.css" />
+    <title>Gửi em!</title>
+  </head>
+  <body>
+    <div class="warpper preloading">
+      <div class="box">
+        <div class="mail">
+          <div class="heart">
+            <img src="image/tym.png" alt="" />
+            <img src="image/tym.png" alt="" />
+            <img src="image/tym.png" alt="" />
+            <img src="image/tym.png" alt="" />
+            <img src="image/tym.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="title">
+              <h2>Gửi em yêu thương của anh!</h2>
+            </div>
+            <p>
+              Ngày hôm nay, anh muốn gửi đến em những lời yêu thương sâu lắng
+              nhất, trong lòng anh. Không chỉ vì đây là ngày 20-10, ngày tôn
+              vinh những người phụ nữ tuyệt vời, mà còn bởi em – người phụ nữ
+              anh luôn trân quý và yêu thương. Em là động lực, là nguồn cảm hứng
+              để anh không ngừng phấn đấu mỗi ngày. Ngày hôm nay, anh chỉ muốn
+              nói rằng anh yêu em. Chúc em ngày 20-10 thật hạnh phúc, không chỉ
+              hôm nay mà cả những ngày sau nữa, bởi em xứng đáng với tất cả
+              những điều tốt đẹp nhất trên thế gian này. Anh luôn ở đây, mãi mãi
+              yêu thương và che chở cho em.           Yêu em, Duy của Béooo
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="loader-wrapper">
+        <div class="loader">
+          <div class="inner one" style="--i: 1"></div>
+          <div class="inner two" style="--i: 1"></div>
+          <div class="inner three" style="--i: 1"></div>
+          <div class="box-heart">
+            <div class="heartLoader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+  ></script>
+  <script>
+    $(window).on("load", function (event) {
+      $("body").removeClass("preloading");
+      $(".loader-wrapper").delay(1000).fadeOut("fast");
+    });
+  </script>
+</html>
